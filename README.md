@@ -9,7 +9,7 @@
     <p>⭕ This is how to install Manjaro. If you are using another distribution, you should know that the path of the files is different.</p><br>
   </div>
   
-  <details>
+  <details open>
     <summary><h4>Clone Project</h4></summary>
       <p><li>Git clone</li></p>
       <pre> git clone git@github.com:mobinjavari/my_dot_files.git </pre>
@@ -17,7 +17,7 @@
       <pre> cd my_dot_files </pre><br>
   </details>
   
-  <details>
+  <details open>
     <summary><h4>Oh My Zsh</h4></summary>
     <p><li>Install oy my zsh (crul)</li></p>
     <pre>sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"</pre>
@@ -25,7 +25,7 @@
     <pre>cp .zshrc ~/</pre><br>
   </details>
   
-  <details>
+  <details open>
     <summary><h4>Window Manager ( i3 )</h4></summary>
     <p><li>Install i3wm</li></p>
     <pre>sudo pacman -S i3wm</pre>
@@ -33,15 +33,15 @@
     <pre>cp -r .i3 ~/</pre><br>
   </details>
   
-  <details>
+  <details open>
     <summary><h4>Bash</h4></summary>
     <p><li>Add config for bash</li></p>
     <pre>cp .bashrc ~/</pre><br>
   </details>
   
-  <details>
+  <details open>
     <summary><h4>GTK Theme</a></h4></summary>
-    <p><li>Add config for gtk theme <a href="">( Other configs for gtk theme )</a></li></p>
+    <p><li>Add config for gtk theme <a href="https://github.com/mobinjavari/Adw-GTK-Colors">( Other configs for gtk theme )</a></li></p>
     <pre>cp .config/gtk-3.0/gtk.css ~/.config/gtk-3.0/gtk.css</pre>
     <pre>cp .config/gtk-4.0/gtk.css ~/.config/gtk-4.0/gtk.css</pre>
   </details>
