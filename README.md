@@ -12,7 +12,7 @@
   <details open>
     <summary><h4>Clone Project</h4></summary>
       <p><li>Git clone</li></p>
-      <pre> git clone git@github.com:mobinjavari/my_dot_files.git </pre>
+      <pre> git clone git@github.com:mobinjavari/dot-files.git </pre>
       <p><li>Go to file</li></p>
       <pre> cd my_dot_files </pre><br>
   </details>
