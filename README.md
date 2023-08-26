@@ -1,5 +1,5 @@
 <div align="left">
-  <div align="left">
+  <div align="center">
     <h1>MY Dot File's</h1>
     <p>my personal dot files (configurations)</p><br><br>
   </div>
@@ -12,9 +12,9 @@
   <details open>
     <summary><h4>Clone Project</h4></summary>
       <p><li>Git clone</li></p>
-      <pre> git clone git@github.com:mobinjavari/dot-files.git </pre>
+      <pre> git clone https://github.com/mobinjavari/dot-files.git </pre>
       <p><li>Go to file</li></p>
-      <pre> cd my_dot_files </pre><br>
+      <pre> cd dot-files </pre><br>
   </details>
   
   <details open>
